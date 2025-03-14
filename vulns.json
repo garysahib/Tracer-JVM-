@@ -1,0 +1,43 @@
+{
+  "vulnerabilities": [
+    {
+      "package": "org.apache.log4j",
+      "version": "<=2.14.1",
+      "cve": "CVE-2021-44228",
+      "method": "lookup",
+      "description": "Log4Shell vulnerability in Apache Log4j allows attackers to execute arbitrary code by sending crafted JNDI lookup requests",
+      "severity": 10
+    },
+    {
+      "package": "org.springframework",
+      "version": "<5.3.18",
+      "cve": "CVE-2022-22965",
+      "description": "Spring4Shell vulnerability in Spring Framework allows attackers to execute arbitrary code via specially crafted request",
+      "severity": 9
+    },
+    {
+      "package": "com.fasterxml.jackson.core",
+      "version": "<2.14.0",
+      "cve": "CVE-2022-42003",
+      "method": "readValue",
+      "description": "XML external entity injection vulnerability in Jackson-databind",
+      "severity": 7
+    },
+    {
+      "package": "org.apache.commons.collections",
+      "version": "<3.2.2",
+      "cve": "CVE-2015-7501",
+      "method": "transformedMap",
+      "description": "Collections deserialization vulnerability that allows remote attackers to execute arbitrary code",
+      "severity": 9
+    },
+    {
+      "package": "com.h2database",
+      "version": "<2.0.206",
+      "cve": "CVE-2021-42392",
+      "method": "runServer",
+      "description": "H2 Database Console remote code execution vulnerability via JNDI injection",
+      "severity": 8
+    }
+  ]
+}
